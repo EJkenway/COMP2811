@@ -12,5 +12,6 @@ using Records = QList<Record>;
 void setupDatabase();
 Records searchDatabase(const QString& attribute, const QString& keyword);
 std::pair<double, double> findResultRange(const Records& records);
+Records sortRecordsByTime(const Records& records);
 
 #endif

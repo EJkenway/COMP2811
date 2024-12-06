@@ -824,6 +824,10 @@ CMakeFiles/monitor.dir/utils/database_utils.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
   /opt/homebrew/lib/QtSql.framework/Headers/QSqlRecord \
   /opt/homebrew/lib/QtSql.framework/Headers/qsqlrecord.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDateTime \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcalendar.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
   /Users/ekenway/Project/User\ Interface/COMP2811UI24-25_-_CW3/COMP2811/src/utils/database_utils.hpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \

@@ -1,4 +1,3 @@
-
 CREATE TABLE pollution (
     id TEXT PRIMARY KEY,
     sampling_point TEXT,

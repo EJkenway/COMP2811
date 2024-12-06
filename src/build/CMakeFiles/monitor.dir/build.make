@@ -230,8 +230,11 @@ monitor: CMakeFiles/monitor.dir/pages/Env_litter.cpp.o
 monitor: CMakeFiles/monitor.dir/pages/Compliance.cpp.o
 monitor: CMakeFiles/monitor.dir/utils/database_utils.cpp.o
 monitor: CMakeFiles/monitor.dir/build.make
-monitor: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 monitor: /opt/homebrew/lib/QtSql.framework/Versions/A/QtSql
+monitor: /opt/homebrew/lib/QtCharts.framework/Versions/A/QtCharts
+monitor: /opt/homebrew/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
+monitor: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+monitor: /opt/homebrew/lib/QtOpenGL.framework/Versions/A/QtOpenGL
 monitor: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 monitor: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 monitor: CMakeFiles/monitor.dir/link.txt

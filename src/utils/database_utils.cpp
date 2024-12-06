@@ -4,6 +4,7 @@
 #include <QVariant>
 #include <QDebug>
 #include <QSqlRecord>
+#include <QDateTime>
 
 #include "database_utils.hpp"
 
@@ -68,4 +69,22 @@ std::pair<double, double> findResultRange(const Records& records) {
     }
 
     return {minResult, maxResult};
+}
+
+Records sortRecordsByTime(const Records& records) {
+    Records sortedRecords = records;
+
+    std::stable_sort(sortedRecords.begin(), sortedRecords.end(), [](const Record& a, const Record& b) {
+        QDateTime timeA = QDateTime::fromString(a["sample_date_time"].toString(), Qt::ISODate);
+        QDateTime timeB = QDateTime::fromString(b["sample_date_time"].toString(), Qt::ISODate);
+
+        if (!timeA.isValid() || !timeB.isValid()) {
+            qWarning() << "Invalid timestamp in record comparison:";
+            return false;
+        }
+
+        return timeA < timeB;
+    });
+
+    return sortedRecords;
 }
