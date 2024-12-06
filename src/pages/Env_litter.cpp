@@ -152,5 +152,5 @@ void EnvPage::onSearchClicked() {
         "Max Result: %2\n"
         "Min Result: %3\n"
         "Compliant?: %4"
-    ).arg(results.size()).arg(maxResult).arg(minResult));
+    ).arg(results.size()).arg(maxResult).arg(minResult).arg(compliant));
 }
